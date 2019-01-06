@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Android.mk",
+    "/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/rudiyardley/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "helloworld-debug-x86": {
+      "artifactName": "helloworld",
+      "buildCommand": "/Users/rudiyardley/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/lib /Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/obj/local/x86/libhelloworld.so",
+      "abi": "x86",
+      "output": "/Users/rudiyardley/client-projects/cpp-article/CppReactNative/android/app/build/intermediates/ndkBuild/debug/obj/local/x86/libhelloworld.so"
+    }
+  }
+}

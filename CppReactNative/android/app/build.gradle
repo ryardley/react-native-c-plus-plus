@@ -105,6 +105,8 @@ android {
         versionName "1.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
+            moduleName "helloworld"
+            ldLibs "log"
         }
     }
     splits {
@@ -113,6 +115,17 @@ android {
             enable enableSeparateBuildPerCPUArchitecture
             universalApk false  // If true, also generate a universal APK
             include "armeabi-v7a", "x86"
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ["../../djinni/java", "src/main/java"]
+            jni.srcDirs = ["../../djinni/jni"]
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path file('src/main/jni/Android.mk')
         }
     }
     buildTypes {

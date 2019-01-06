@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "djinni": "dropbox/djinni#51bf14f228579a78bc979f0e57c6849a708ed8aa",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.51.1",
     "react-test-renderer": "16.6.3"

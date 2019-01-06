@@ -1719,6 +1719,10 @@ diff@^3.2.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
 
+djinni@dropbox/djinni#51bf14f228579a78bc979f0e57c6849a708ed8aa:
+  version "0.0.0"
+  resolved "https://codeload.github.com/dropbox/djinni/tar.gz/51bf14f228579a78bc979f0e57c6849a708ed8aa"
+
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
